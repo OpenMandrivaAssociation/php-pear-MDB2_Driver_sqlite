@@ -38,7 +38,7 @@ find -type f | %{__grep} -v ".gif" | %{__grep} -v ".png" | %{__grep} -v ".jpg" |
 
 %install
 %{__rm} -rf %{buildroot}
-%{__mkdir_p} %{buildroot}%{_datadir}/pear/MDB2/{Driver/{Datatype,Function,Manager,Native,Reverse}}
+%{__mkdir_p} %{buildroot}%{_datadir}/pear/MDB2/Driver/{Datatype,Function,Manager,Native,Reverse}
 
 %{__cp} -a %{_pearname}-%{version}/MDB2/Driver/*.php %{buildroot}%{_datadir}/pear/MDB2/Driver/
 %{__cp} -a %{_pearname}-%{version}/MDB2/Driver/Datatype/*.php %{buildroot}%{_datadir}/pear/MDB2/Driver/Datatype/
