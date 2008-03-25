@@ -1,10 +1,10 @@
 %define        _class           MDB2_Driver_sqlite
 %define        _pearname        %{_class}
-%define        _status          stable
+%define        _status          beta
 
 Summary:        %{_pearname} - sqlite MDB2 driver
 Name:           php-pear-%{_pearname}
-Version:        1.4.1
+Version:        1.5.0b1
 Release:        %mkrel 1
 Epoch:          0
 License:        PHP License
