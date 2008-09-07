@@ -5,12 +5,13 @@
 Summary:        %{_pearname} - sqlite MDB2 driver
 Name:           php-pear-%{_pearname}
 Version:        1.5.0b1
-Release:        %mkrel 2
+Release:        %mkrel 3
 Epoch:          0
 License:        PHP License
 Group:          Development/PHP
 Source0:        http://download.pear.php.net/package/MDB2_Driver_sqlite-%{version}.tgz
 URL:            http://pear.php.net/package/MDB2_Driver_sqlite/
+Requires:	php-sqlite
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:       php-pear
@@ -82,5 +83,3 @@ fi
 %{_datadir}/pear/MDB2/Driver/Reverse/sqlite.php
 %{_datadir}/pear/MDB2/Driver/sqlite.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
