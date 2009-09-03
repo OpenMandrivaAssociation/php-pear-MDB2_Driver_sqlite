@@ -5,7 +5,7 @@
 Summary:        %{_pearname} - sqlite MDB2 driver
 Name:           php-pear-%{_pearname}
 Version:        1.5.0b1
-Release:        %mkrel 3
+Release:        %mkrel 4
 Epoch:          0
 License:        PHP License
 Group:          Development/PHP
