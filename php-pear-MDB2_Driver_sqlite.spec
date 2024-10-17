@@ -9,7 +9,7 @@ Summary:        Sqlite MDB2 driver
 Epoch:          1
 License:        PHP License
 Group:          Development/PHP
-URL:            http://pear.php.net/package/MDB2_Driver_sqlite/
+URL:            https://pear.php.net/package/MDB2_Driver_sqlite/
 Source0:        http://download.pear.php.net/package/MDB2_Driver_sqlite-%{version}b3.tgz
 Requires:	php-sqlite
 Requires(post): php-pear
