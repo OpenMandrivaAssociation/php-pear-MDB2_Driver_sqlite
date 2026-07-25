@@ -4,7 +4,7 @@
 
 Name:           php-pear-%{upstream_name}
 Version:        1.5.0
-Release:        %mkrel 0.0.b3.1
+Release:        1
 Summary:        Sqlite MDB2 driver
 Epoch:          1
 License:        PHP License
